@@ -10,6 +10,8 @@ let mquinta=document.getElementById("mex_quinta");
 let santercer=document.getElementById("sant_tercera");
 let sancuarta=document.getElementById("sant_cuarta");
 let sanquinta=document.getElementById("sant_quinta");
+let clickEstu=document.getElementsByClassName("text_body");
+let linkstu = document.getElementsByClassName("topicss");
 let sedeLima="lima";
 let sedeMex="mexico";
 let sedeSant="santiago";
@@ -22,13 +24,16 @@ sedeSant="santiago";
 /*Boton tercera Lima*/
 tercer.addEventListener("click",evento=>{
 let botonLima = evento.target.innerHTML;
+
 window.computeStudentsStats(res,botonLima,sedeLima)
 });
 
 /*Boton cuarta Lima*/
 cuarta.addEventListener("click",evento=>{
 let botonLima = evento.target.innerHTML;
+  //document.getElementById("GetStarted").style.display = "none";
 window.computeStudentsStats(res,botonLima,sedeLima)
+
 });
 
 
@@ -76,4 +81,16 @@ sanquinta.addEventListener("click",evento=>{
 let botonSan = evento.target.innerHTML;
 window.computeStudentsStats(res,botonSan,sedeSant)
 });
+
+/* Recorrer todos los botonnes de topics*/
+/*for (let i = 0; i < linkstu.length; i++) {
+//Evento con los botones de topics
+linkstu[i].addEventListener("click", event => {
+let nombresEstu = event.target.innerHTML;
+temaStu(nombresEstu)
+});
+}*/
+
+
+
 }

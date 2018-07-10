@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700');
+
+.navOne{
+	background-color:#FFE521;
+	padding-top: 5px;
+
+	height: 68px;
+}
+
+.navTwo{
+	background-color:#FFE521;
+	padding-top: 0px;
+font-family: 'Bitter', serif;
+	height: 68px;
+	font-size: 20px;
+}
+
+.labo{
+
+	padding-top: 0px;
+}
+
+#sedespin{
+padding-top:  100px;
+font-family: 'Bitter', serif;
+padding-top: 35px;
+padding-left: 80px;
+padding-right: 67px;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+#pintar_estudiantes{
+
+font-family: 'Bitter', serif;
+
+
+}
+
+
 
 .cabeza {
 
@@ -7,9 +46,9 @@ height: 60px;
 
 .search{
 
-padding-top: 20px;
+padding-top: 12px;
 
-padding-bottom:	20px;
+padding-left:	420px;
 
 }
 
@@ -56,10 +95,10 @@ background-color: red;
 
 .user {
 
-background-color:#FFE032;
+background-color:#FFE521;
 
-height: 200px;
-
+height: 250px;
+font-family: 'Bitter', serif;
 
 
 }
@@ -70,18 +109,37 @@ height: 200px;
 
 padding-top: 45px;
 
+
+}
+
+.imageEstu{
+
+padding-top: 10px;
+
 }
 
 
 
 .nav_Vertical{
 
-background-color:#FFE65C;
+background-color:#FFE521;
 
-height: 2000px;
+height: 6000px;
+
+font-size: 10	px;
+}
+
+.navbar-nav {
+
+	padding-top:30px;
 
 }
 
+.imagenYellow{
+
+	padding-left: 5px;
+
+}
 
 
 .button{
@@ -102,17 +160,131 @@ font-size: 12px;
 }
 
 .sedes
-
 {
-
 font-size: 18px;
-
 }
 
 .home
-
 {
-
 font-size: 18px;
+}
 
+
+
+
+
+
+
+#titulS{
+padding-top: 	30px;
+padding-left: 20px;
+padding-bottom: 5px;
+padding-right: 30px;
+}
+
+.tit{
+
+padding-left: 100px;
+padding-right: 100px;
+}
+
+
+#titulG{
+
+padding-left: 20px;
+padding-bottom: 30px;
+}
+
+
+
+#pintar_estudiantes{
+padding-top: 0px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+
+
+.info{
+	width: 300px;
+  height: 180px;
+  display: block;
+  margin: 0.8rem;
+  background-color: #FFE521;
+  color: #000000;
+  text-align: center;
+	border-radius: 10px;
+	padding-top: 30px;
+	float: left;
+}
+
+.infoa {
+	width: 300px;
+	height: 180px;
+	display: block;
+	background-color:#56F89A;
+	margin: 0.8rem;
+	color: #000000;;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 30px;
+	float: left;
+}
+
+.infob {
+	width: 300px;
+	height: 180px;
+	display: block;
+	margin: 0.8rem;
+	background-color: #FF009E;
+	color: #000000;;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 30px;
+	float: left;
+}
+
+.p{
+	font-size: 89px;
+}
+
+.sombrerito{
+	padding-left: 15px;
+}
+
+
+.infabajo{
+
+
+
+  width: 350px;
+	height: 200px;
+	display: block;
+	margin: 0.8rem;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	border-radius: 20px;
+	padding-top: 30px;
+  float: left;
+	border: 4px solid #FFEC5D;
+}
+
+.infabajo2{
+	width: 350px;
+	height: 200px;
+	display: block;
+	margin: 0.8rem;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	border-radius: 20px;
+	padding-top: 30px;
+  float: left;
+	border: 4px solid #FF009E	;
+}
+
+.cajas-bo{
+padding-top: 40px;
+padding-left: 50px;
 }
