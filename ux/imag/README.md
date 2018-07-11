@@ -20,6 +20,10 @@ que el desarollo del producto se vaso en estos:
  4. **Prototipado.**
  5. **User Testing.**
 
+__Proceso de Diseño__
+
+ ![Proceso de Diseño](/ux/imag/ux.png)
+
 
 ### **1. Reserch**
 
@@ -59,7 +63,9 @@ fueron formuladas con 9 preguntas las cuales tienen como objetivo entender al us
 8. **¿Por qué?**
 9. **¿Qué impacto tendría en tu trabajo diario?**
 
-*foto*
+__Encuesta electronica__
+
+ ![Encuesta](/ux/imag/encuesta.png)
 
 
  __Búsqueda en la web de proyectos similares:__
@@ -156,4 +162,4 @@ Prototipo en figma: (
   )
 
 ### **5. User testing**
-(Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
+![alt text](/ux/imag/web.png)
