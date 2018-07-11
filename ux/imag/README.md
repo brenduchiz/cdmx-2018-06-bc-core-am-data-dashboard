@@ -131,7 +131,7 @@ __Data proporcionada:__
 
 -_Data relacionada a los cursos:_
 
-![alt text](C:/Users/Brenda/Documents/Sprint 2/cdmx-2018-06-bc-core-am-data-dashboard/ux/imag/sketch.gif "Data")
+![alt text](/ux/imag/sketch.gif "Data")
 
 
 
