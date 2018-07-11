@@ -65,7 +65,7 @@ fueron formuladas con 9 preguntas las cuales tienen como objetivo entender al us
 
 __Encuesta electronica__
 
- ![Encuesta](/ux/imag/encuesta.png)
+ ![Encuesta](/ux/imag/encuesta.gif)
 
 
  __Búsqueda en la web de proyectos similares:__
@@ -162,4 +162,4 @@ Prototipo en figma: (
   )
 
 ### **5. User testing**
-![alt text](/ux/imag/web.png)
+![alt text](/ux/imag/web.gif)
