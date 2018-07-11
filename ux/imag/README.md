@@ -129,9 +129,9 @@ __Lo que los usuarios esperan obtener:__
 
 __Data proporcionada:__
 
--_Data relacionada a los cursos:_
+__Data relacionada a los cursos:__
 
-![alt text](/ux/imag/sketch.gif "Data")
+![alt text](/ux/imag/data.png)
 
 
 
@@ -144,9 +144,9 @@ Nuestro prototipo se baso en las necesidades del usuario, ya que nos pedia que t
 
 
 
-![Sketch](/images/giphy.gif)
+![Sketch](/ux/imag/giphy.gif)
 
-![Sketch black and white](/images/sketch.gif)
+![Sketch black and white](/ux/imag/sketch.gif)
 
 Prototipo en figma: (
   https://www.figma.com/proto/NI1SBmGJZsUghItCzQGa5wwC/Untitled?scaling=min-zoom&node-id=2%3A0 (producto final)
