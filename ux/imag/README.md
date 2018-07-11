@@ -126,16 +126,15 @@ __Lo que los usuarios esperan obtener:__
 3. Vizualización de información relevante no. de estudiantes activas y comparación con otras sedes.
 
 
- Insights:__
 
 __Data proporcionada:__
 
 -_Data relacionada a los cursos:_
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-![Data](src/ux/imag/data.png)
+
+![alt text](src/ux/imag/data.png "Data")
 
 
-__Insights del negocio:__
+
 
 ### **3. Ideación**
 La idea principal del proyecto era realizar un data dashboard muy vizual, que tuviera muchas graficas y que fuera muy facil acceder a la informacion, sin tantos pasos a seguir y que la informacion importante estuviera principalmente a Vizualización del usuario, ya que en las entrevistas todas pedian que fuera facil acceder y que no tuvieran que estar actualizando la data a cada rato.
