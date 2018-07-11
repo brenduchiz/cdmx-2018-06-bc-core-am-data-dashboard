@@ -131,7 +131,7 @@ __Data proporcionada:__
 
 -_Data relacionada a los cursos:_
 
-![alt text](/imag/sketch.png "Data")
+![alt text](/imag/sketch.gif "Data")
 
 
 
