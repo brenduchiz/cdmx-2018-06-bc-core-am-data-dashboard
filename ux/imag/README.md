@@ -131,8 +131,8 @@ __Lo que los usuarios esperan obtener:__
 __Data proporcionada:__
 
 -_Data relacionada a los cursos:_
-
-![Data](/imag/data.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Data](src/ux/imag/data.png)
 
 
 __Insights del negocio:__
@@ -152,8 +152,8 @@ Nuestro prototipo se baso en las necesidades del usuario, ya que nos pedia que t
 Prototipo en figma: (
   https://www.figma.com/proto/NI1SBmGJZsUghItCzQGa5wwC/Untitled?scaling=min-zoom&node-id=2%3A0 (producto final)
 
-  https://www.figma.com/proto/Q14bzvBahWAnetvrr5xtv2gA/Untitled?scaling=min-zoom&node-id=3%3A2(primer opcion)
-  https://www.figma.com/proto/di4k6Np3BMhUYPO1CKIATRlc/Untitled?scaling=scale-down&node-id=3%3A3(responsive de primer opcion)
+  https://www.figma.com/proto/Q14bzvBahWAnetvrr5xtv2gA/Untitled?scaling=min-zoom&node-id=3%3A2 (primer opcion)
+  https://www.figma.com/proto/di4k6Np3BMhUYPO1CKIATRlc/Untitled?scaling=scale-down&node-id=3%3A3 (movil)
   )
 
 ### **5. User testing**
