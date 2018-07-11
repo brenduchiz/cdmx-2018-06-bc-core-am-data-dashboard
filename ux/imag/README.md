@@ -145,9 +145,9 @@ Nuestro prototipo se baso en las necesidades del usuario, ya que nos pedia que t
 
 
 
-![Sketch](/imag/giphy.gif)
+![Sketch](imag/giphy.gif)
 
-![Sketch black and white](/imag/sketch.gif)
+![Sketch black and white](imag/sketch.gif)
 
 Prototipo en figma: (
   https://www.figma.com/proto/NI1SBmGJZsUghItCzQGa5wwC/Untitled?scaling=min-zoom&node-id=2%3A0 (producto final)
