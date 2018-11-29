@@ -12,6 +12,9 @@ let sancuarta=document.getElementById("sant_cuarta");
 let sanquinta=document.getElementById("sant_quinta");
 let clickEstu=document.getElementsByClassName("text_body");
 let linkstu = document.getElementsByClassName("topicss");
+let inputSerch = document.getElementById("searchStudents");
+let BuSerch = document.getElementById("buttonSearch");
+
 let sedeLima="lima";
 let sedeMex="mexico";
 let sedeSant="santiago";
@@ -82,15 +85,10 @@ let botonSan = evento.target.innerHTML;
 window.computeStudentsStats(res,botonSan,sedeSant)
 });
 
-/* Recorrer todos los botonnes de topics*/
-/*for (let i = 0; i < linkstu.length; i++) {
-//Evento con los botones de topics
-linkstu[i].addEventListener("click", event => {
-let nombresEstu = event.target.innerHTML;
-temaStu(nombresEstu)
+/*Boton busqueda*/
+BuSerch.addEventListener("click",evento=>{
+window.filterStudents(res,inputSerch.value)
+
 });
-}*/
-
-
 
 }

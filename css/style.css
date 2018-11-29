@@ -1,0 +1,411 @@
+.wrapper {
+        display: flex;
+        width: 100%;
+}
+
+#nav{
+    background: #FFE521;
+}
+#content {
+    width: 100%;
+padding: 10px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: 0px;
+}
+
+#sidebar {
+    margin-left: -250px;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+
+
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #FFE521;
+    color: black;
+    transition: all 0.3s;
+    
+   
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #FFE521;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #FFE521;
+}
+
+#sidebar ul p {
+    color: black;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #FFE521;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: black;
+    background: #FFE521;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: white;
+    color: black;
+}
+
+
+#lima{
+    background-color: #FFE521;
+   
+  }
+  
+#mexico{
+    background-color:#56F89A;
+   
+}
+
+#santiago{
+    background-color: #FF009E;
+}
+
+
+
+ 
+.info{
+  background-color: #FFE521;
+  color: #000000;
+  text-align: center;
+   border-radius: 10px;
+   padding: 10px;   
+   width: 25%;
+  
+}
+
+
+
+
+.padre{
+	
+  
+    display: flex;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .padre{
+        
+        flex-direction: column;
+        }
+
+} 
+
+
+@media only screen and (min-width: 768px) {
+
+    .info{
+        
+        padding: 40px;
+        margin: 20px;
+        width: 40%;
+       
+        }
+
+} 
+
+
+@media only screen and (min-width: 1200px) {
+
+    .info{
+       
+        padding: 40px;
+        margin: 30px;
+        width: 30%; 
+        }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .info{
+        
+       
+        width: 80%; 
+        margin: 40px;
+
+        
+        }
+
+
+
+
+} 
+
+@media only screen and (min-width: 600px) {
+
+    .info{
+        
+       
+        width: 80%; 
+        margin: 40px;
+
+        
+        }
+
+
+
+
+} 
+
+
+
+.infabajo{
+
+    padding: 20px;   
+    
+    
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	border-radius: 20px;
+	
+}
+
+
+#progeso-arriba{
+    border: 4px solid #FFEC5D;
+    
+  }
+  
+#progeso-abajo{
+    border: 4px solid #FF009E;
+    
+}
+
+
+
+
+
+  @media only screen and (min-width: 768px) {
+
+    .padre2{
+	
+  
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+   .padre2 .infabajo{
+       padding: 30px;   
+        width: 30%;
+     padding-left: 30px;
+        }
+
+}
+@media only screen and (min-width: 768px) {
+
+    #progeso-arriba{
+        margin-left: 100px;
+         }
+ 
+ }
+ 
+
+
+  @media only screen and (max-width: 600px) {
+
+    .padre2{
+        
+        flex-direction: column;
+        }
+    
+
+} 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .infabajo{
+        padding: 30px;
+        margin-top: 20px;
+        width: 30%; 
+        }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    #progeso-arriba{
+       
+        margin-left: 240px;
+        
+        }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    #progeso-abajo{
+       
+       
+        margin-left: 50px;
+        
+        }
+
+}
+
+@media only screen and (min-width: 992px) {#progeso-arriba{
+       
+    width: 25%; 
+    
+    }}
+
+
+    @media only screen and (min-width: 992px) {#progeso-abajo{
+       
+        width: 25%; 
+        
+        }}
+    
+
+
+    
+
+
+@media only screen and (max-width: 600px) {
+
+    .infabajo{
+        
+       
+        width: 80%; 
+        margin: 40px;
+        
+        }
+
+
+
+
+} 
+
+@media only screen and (min-width: 600px) {
+
+    .infabajo{
+        
+       
+        width: 80%; 
+        margin: 40px;
+        
+        }
+
+
+
+
+} 
+    
+
+.titulo{
+
+text-align: center;
+
+margin-top: 10px;
+width: 100%;
+
+}
+
+    
+
+.alumna{
+
+    margin-top: 10px;
+
+    }
+
+
+   
+    @media only screen and (min-width: 768px) {
+
+        .alumna{
+           
+            width: 100%;
+            }
+            
+    } 

@@ -5,10 +5,10 @@ window.getData = () => {
     .then((res) => {
 
 renderInfo(res)
-//const limaData=computeStudentsStats(resdata);
 
-//const mexData=computeGenerationsStats(resdata);
-//console.log(limaData)
+
+
+
 
 
     })
@@ -31,9 +31,11 @@ let nombresEstu;
   let estudiante = laboratoria[sede].generacion[genera].estudiantes;
   for (let i = 0; i < estudiante.length; i++) {
   let nombre_tercera=estudiante[i];
-if (nombre_tercera===estudiante[1]) {
-  console.log(estudiante[0])
-}
+
+
+//if (nombre_tercera===estudiante[1]) {
+  //console.log(estudiante[0])
+//}
 
 
 
@@ -67,7 +69,7 @@ if(porcentajeComp < 60){
 
 
 pintar = `
-<div class="p-3 mb-2 bg-light text-dark border tit" role="alert">
+<div class="p-3 mb-2 bg-light text-dark border titulo" role="alert">
 <h3 class="alert-heading" id="titulS">Sede  ${sedelima}</h3>
 <h3 class="alert-heading" id="titulG">${generac} generacion  </h3>
 </div>
@@ -78,11 +80,10 @@ sedespin.innerHTML=pintar;
 
 
 resultado+=  `
-<p>
-<p>
-  <p>
-  <div class="p-3 mb-2 bg-light text-dark border" role="alert">
-  <img src="imag/alumnas.svg.png" width="70" height="70" class="img-fluid imageEstu" alt="Responsive image " >
+
+
+  <div class=" bg-light text-dark border alumna">
+  <img src="./img/alumnas.svg.png" width="70" height="70" class="img-fluid imageEstu" alt="Responsive image " >
   <h4 class="alert-heading">${nombre_tercera.nombre}  </h4>
 
 
@@ -118,9 +119,7 @@ resultado+=  `
 
 
     </div>
-   </p>
-</p>
-</p>
+  
 `
 
 
@@ -164,11 +163,13 @@ let s = Object.keys(estudiante);
 
 
 pintartopics=  `
+
+<div class=" bg-light text-dark border alumna">
 <h5 class="alert-heading"> </h5>
 <div class="p-3 mb-2 bg-light text-dark border" role="alert">
 <h4 class="alert-heading">${temasStudents}</h4>
 <p>
-<img src="imag/alumnas.svg.png" width="70" height="70" class="img-fluid imageEstu" alt="Responsive image " >
+<img src="./img/alumnas.svg.png" width="70" height="70" class="img-fluid imageEstu" alt="Responsive image " >
 </p>
 
 <p>
@@ -199,6 +200,7 @@ pintartopics=  `
    </p>
 <p>Tipo: ${type}</p>
 </div>
+</div>
  `
 
  pintar_estudiantes.innerHTML = pintartopics;
@@ -220,12 +222,25 @@ window.sortStudents = (laboratoria) => {
 };
 
 
-window.filterStudents = (laboratoria) => {
-  let serch = laboratoria;
+window.filterStudents = (laboratoria,valueInput,nombre_tercera) => {
+
+  //if (typeof valueInput === 'number') {
+    //  const filterEstu = [];
+      /*students.forEach(student => {
+        if (student.stats.completedPercentage === search) {
+          filteredStudents.push(student);
+        }
+      });
+      return filteredStudents;
+    } else {
+      const filteredStudents = students.filter(
+        student => student.name.toLowerCase().indexOf(search.toLowerCase()) != -1
+      );
+      return filteredStudents;
+    }*/
 
 
-  let busqueda = laboratoria.indexOf("searchStudents");
+console.log(nombre_tercera)
 
-console.log(busqueda)
 
 };
