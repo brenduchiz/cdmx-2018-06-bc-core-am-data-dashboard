@@ -1,5 +1,10 @@
 # **Data Dashboard**
 
+![data](https://user-images.githubusercontent.com/27248841/49709738-7e5a2480-fbfb-11e8-9694-2dea4ad325b8.png)
+
+- User: lucile@laboratoria.la
+- Password: 123
+
 # **Preámbulo**
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje.
 
